@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: hsl(318, 83%, 82%);
+    padding: 10px 20px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #90c7d8;
+    color: rgb(96, 10, 200);
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #db82cf;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav .logo {
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a.buy-now {
+    background-color: #d68fb0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#hero {
+    background: linear-gradient(to right, #ee4ad5, #bd83ae);
+    color: rgb(6, 1, 51);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #ace8e8;
+}
+
+.feature {
+    text-align: center;
+    color: #760808;
+}
+
+#about-us {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgb(215, 193, 211);
+}
+
+#about-us .about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(226, 157, 203);
+}
+
+#services {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgb(152, 223, 251);
+}
+
+.service {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(142, 211, 237);
+    text-align: center;
+    padding: 10px 0;
+}
